@@ -13,7 +13,7 @@ class CurrentWeatherService
     @current_weather_data = JSON.parse(self.class.get("/data/2.5/weather?q=#{city}&APPID=#{api_key}").body)
   end
 
-  def current_weather_request_by_id(id)
+  def current_weather_request_by_id(id, api_key)
     @current_weather_data = JSON.parse(self.class.get("/data/2.5/weather?id=#{id}&APPID=#{api_key}").body)
   end
 
@@ -156,10 +156,10 @@ class CurrentWeatherService
 
 end
 
-currentWeather = CurrentWeatherService.new
+# currentWeather = CurrentWeatherService.new
 
-# currentWeather.current_weather_request_by_name('London', @api_key)
-# p weather.current_weather_request_by_id('2643743', 'f6f21117452fa8a220b69f00142c537c')
-currentWeather.current_weather_request_by_name('London','f6f21117452fa8a220b69f00142c537c')
-# p currentWeather.retrieve_coord_lon
-p currentWeather.retrieve_visibility
+# # currentWeather.current_weather_request_by_name('London', @api_key)
+# # p weather.current_weather_request_by_id('2643743', 'f6f21117452fa8a220b69f00142c537c')
+# currentWeather.current_weather_request_by_name('London','f6f21117452fa8a220b69f00142c537c')
+# # p currentWeather.retrieve_coord_lon
+# p currentWeather.retrieve_visibility

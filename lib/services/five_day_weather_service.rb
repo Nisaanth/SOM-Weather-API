@@ -157,4 +157,4 @@ currentWeather = FiveDayWeatherForecastService.new
 
 currentWeather.five_day_weather_request_by_name('London', 'f6f21117452fa8a220b69f00142c537c')
 
-p currentWeather.retrieve_all_weather_icon
+p currentWeather.retrieve_all_weather_icon 
