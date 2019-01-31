@@ -7,7 +7,7 @@ class Weatherapi
     CurrentWeatherService.new
   end
 
-  def five_day_weather
+  def five_day_weather_service
     FiveDayWeatherForecastService.new
   end
 end
