@@ -1,8 +1,5 @@
 require 'httparty'
 require 'json'
-# require 'dotenv'
-# Dotenv.load('../../.env')
-
 
 class CurrentWeatherService
   include HTTParty

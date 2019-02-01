@@ -1,7 +1,7 @@
 # SOM-Weather-API
 ### Description
 
-This is an attempt to create a Test which on the https://openweathermap.org/current and https://openweathermap.org/forecast5 API service with limited documentation on the website. The program will test a different parameter to the JSON file recieved from the website. The tests are created on rspec with a TDD approach.
+created a SOM (Service Object Model) for the Open Weather API and tested the current weather (https://openweathermap.org/current) and five day (https://openweathermap.org/forecast5) services. Tested both using city name and id using rspec.
 
 ### Languages used
 * Ruby 
