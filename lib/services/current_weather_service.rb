@@ -150,13 +150,4 @@ class CurrentWeatherService
   def retrieve_cod
     @current_weather_data['cod']
   end
-
 end
-
-# currentWeather = CurrentWeatherService.new
-
-# # currentWeather.current_weather_request_by_name('London', @api_key)
-# # p weather.current_weather_request_by_id('2643743', 'f6f21117452fa8a220b69f00142c537c')
-# currentWeather.current_weather_request_by_name('London','f6f21117452fa8a220b69f00142c537c')
-# # p currentWeather.retrieve_coord_lon
-# p currentWeather.retrieve_visibility

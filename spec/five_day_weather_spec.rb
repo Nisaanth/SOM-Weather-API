@@ -105,8 +105,5 @@ describe Weatherapi do
         expect(weather_icon).to be_kind_of(String)
       end
     end
-
-
   end
-
 end

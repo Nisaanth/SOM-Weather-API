@@ -11,5 +11,3 @@ class Weatherapi
     FiveDayWeatherForecastService.new
   end
 end
-
-weather_api = Weatherapi.new
